@@ -32,4 +32,4 @@ jobs:
           aws-region: us-west-2
 
       - name: Upload to S3
-        run: aws s3 cp out/ s3://blog-starter-pipeline --recursive
+        run: aws s3 cp examples/blog-starter/out/ s3://blog-starter-pipeline --recursive
