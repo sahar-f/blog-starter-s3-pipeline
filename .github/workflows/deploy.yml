@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Create blog-starter app
+      - name: Build app
         run: |
           cd examples/blog-starter
           npm install
